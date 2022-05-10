@@ -1,4 +1,49 @@
 body {
     font-family: 'Rajdhani';
     font-size: 48px;
+    padding: 10px;
+    margin: 0;
+    border: 0;
   }
+
+.nav_bar {
+  padding-top: 0;
+  border: 0;
+  margin: 0;
+  height: 15vh;
+  width: 100%;
+  background-color: #333;
+}
+
+.non_titles {
+  float:right;
+}
+
+.nav_links {
+  font-family: 'Rajdhani';
+  font-size: 25px;
+  color: #eee;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav_links:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav_links:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
