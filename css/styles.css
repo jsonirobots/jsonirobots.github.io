@@ -1,6 +1,6 @@
 body {
     font-family: 'Rajdhani';
-    font-size: 48px;
+    color: #c9cbc7;
     padding: 0px;
     margin: 0;
     border: 0;
@@ -8,22 +8,29 @@ body {
   }
 
 .nav_bar {
-  padding: 10px;
+  padding: 2vw;
   border: 0;
   margin: 0;
-  height: 15vh;
+  height: 12vh;
   width: 100%;
   background-color: #21252b;
+  font-size: 2vw;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 2.3vw;
+  position: absolute;
+  top: 0.1vw;
+  left: 0.1vw;
+  margin: 0;
+  padding: 0;
 }
 
 .non_titles {
-  float:right;
-  font-size: 20px;
-  padding-right: 20px;
+  text-align: right;
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
 }
 
 .nav_links {
@@ -32,7 +39,7 @@ body {
   position: relative;
   color: #e9ede0;
   padding: 0;
-  margin: 10px;
+  margin: 0;
   text-decoration: none;
 }
 
