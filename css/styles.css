@@ -1,32 +1,38 @@
 body {
     font-family: 'Rajdhani';
     font-size: 48px;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
     border: 0;
+    background-color: #282c34;
   }
 
 .nav_bar {
-  padding-top: 0;
+  padding: 10px;
   border: 0;
   margin: 0;
   height: 15vh;
   width: 100%;
-  background-color: #333;
+  background-color: #21252b;
+}
+
+.title {
+  font-size: 30px;
 }
 
 .non_titles {
   float:right;
+  font-size: 20px;
+  padding-right: 20px;
 }
 
 .nav_links {
   font-family: 'Rajdhani';
-  font-size: 25px;
-  color: #eee;
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #e9ede0;
   padding: 0;
+  margin: 10px;
   text-decoration: none;
 }
 
@@ -38,8 +44,8 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
+  background-color: #61afef;
+  transform-origin: center;
   transition: transform 0.25s ease-out;
 }
 
