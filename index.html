@@ -2,9 +2,9 @@
 <html>
   <head>
     <title> Jatin Soni</title>
-    <link rel = "icon" type = "image/svg+xml" sizes = "any" href = "images/browser_icon.svg">
+    <link rel = "icon" type = "image/svg+xml" sizes = "any" href = "icons/browser_icon.svg">
 
-    <meta charset = "UTF-8">
+    <meta charset = "utf-8">
     <meta name = "description" content = "Design Portfolio">
     <meta name = "keywords" content = "Design Portfolio, Engineering, Mechanical Engineering, Aerospace Engineering">
     <meta name = "author" content = "Jatin Soni">
@@ -21,19 +21,89 @@
 
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Rajdhani">
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Roboto+Serif">
-    <link rel = "stylesheet" href = "css/styles.css">
+    <!--<link rel = "stylesheet" href = "css/styles.css">-->
+
+    <link rel="stylesheet" href="css/uikit.css">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
   </head>
 
   <body>
-    <nav class = "nav_bar">
-      <a class = "nav_links title" href = "index.html"> JATIN SONI</a>
-      <div class = "non_titles">
-        <a class = "nav_links" href = "index.html"> PROJECTS </a>
-        <a class = "nav_links" href = "index.html"> RESUME </a>
-        <a class = "nav_links" href = "index.html"> CONTACT </a>
+    <div class="uk-section-secondary uk-preserve-color">
+
+
+    <div uk-sticky><!--="start: 50; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent">
+-->
+            <nav class="uk-navbar-container uk-background-secondary uk-navbar-transparent" uk-navbar>
+                <div class="uk-container uk-container-expand uk-light">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">JATIN SONI</a></li>
+                            <li>
+                                <a href="#">PROJECTS</a>
+                                <div class="uk-navbar-dropdown uk-background-secondary">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="#">SWERVE</a></li>
+                                        <li><a href="#">CYCLOIDAL</a></li>
+                                        <li><a href="#">PLANETARY</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">RESUME</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                </div>
+            </nav>
       </div>
-    </nav>
-    Hello
+
+      <div class="uk-column-1-2@s">
+
+        <div>
+            <div class="uk-card uk-card-secondary uk-card-body uk-width-1-1">
+                <img src="images/sample/ITK_render1.png">
+            </div>
+        </div>
+
+        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+          <div>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <img class="uk-border-pill" src="images/sample/ITK_render1.png">
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <img src="images/sample/Render1_ELV.png">
+            </div>
+        </div>
+      </div>
+
+      <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <img src="images/sample/SWR_render1.png">
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <img src="images/sample/SHT_render1.png">
+            </div>
+        </div>
+      </div>
+
+      <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <img src="images/sample/SWR_render1.png">
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-secondary uk-card-body">
+                <img src="images/sample/ITK_render1.png">
+            </div>
+          </div>
+      </div>
+
+      </div>
+    </div>
   </body>
 
 </html>
