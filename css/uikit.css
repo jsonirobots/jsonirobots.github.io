@@ -4993,7 +4993,7 @@ ul.uk-nav-sub {
 .uk-nav-header {
   padding: 5px 0;
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
 }
 .uk-nav-header:not(:first-child) {
   margin-top: 20px;
@@ -5006,7 +5006,7 @@ ul.uk-nav-sub {
 /* Default modifier
  ========================================================================== */
 .uk-nav-default {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 /*
@@ -5045,7 +5045,7 @@ ul.uk-nav-sub {
  * Sublists
  */
 .uk-nav-default .uk-nav-sub {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .uk-nav-default .uk-nav-sub a {
@@ -5141,7 +5141,7 @@ ul.uk-nav-sub {
  * Subtitle
  */
 .uk-nav-secondary .uk-nav-subtitle {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   color: #999;
 }
 /* Hover */
@@ -5168,7 +5168,7 @@ ul.uk-nav-sub {
  * Sublists
  */
 .uk-nav-secondary .uk-nav-sub {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .uk-nav-secondary .uk-nav-sub a {
@@ -5330,7 +5330,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   min-height: 80px;
   /* 4 */
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 5 */
   text-decoration: none;
@@ -5400,7 +5400,7 @@ ul.uk-nav-sub {
 /* Subtitle
  ========================================================================== */
 .uk-navbar-subtitle {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
 }
 /* Justify modifier
  ========================================================================== */
@@ -5531,7 +5531,7 @@ ul.uk-nav-sub {
  * Adopts `uk-nav`
  ========================================================================== */
 .uk-navbar-dropdown-nav {
-  font-size: 0.9rem;
+  font-size: 1.0rem;
 }
 /*
  * Items
