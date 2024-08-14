@@ -3,8 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: evtol_v1.ipynb
-- file: thrust_stand.ipynb
-- file: zerog.ipynb
-- file: contact
+parts:
+  - caption: Hardware Projects
+    chapters:
+    - file: evtol_v1.ipynb
+    - file: thrust_stand.ipynb
+  - caption: Software Projects
+    chapters:
+    - file: zerog.ipynb
+  - caption: Contact
+    chapters:
+    - file: contact
