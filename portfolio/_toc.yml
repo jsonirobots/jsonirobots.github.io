@@ -6,4 +6,5 @@ root: intro
 chapters:
 - file: evtol_v1.ipynb
 - file: thrust_stand.ipynb
+- file: zerog.ipynb
 - file: contact
